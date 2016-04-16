@@ -6,6 +6,7 @@
   <h1>Joy Watch</h1>
 
   {{> login}}
+  {{> map}}
 </body>
 
 <template name="login">
@@ -16,5 +17,11 @@
   {{else}}
     <button id="facebook-login" class="btn btn-default"> Login with Facebook</button>
   {{/if}}
+</template>
+
+<template name="map">
+  <div class="map-container">
+    {{> googleMap name="map" options=mapOptions}}
+  </div>
 </template>
 
