@@ -1,0 +1,11 @@
+{
+  "public": {},
+  "private": {
+    "oAuth": {
+      "facebook": {
+        "appId": "859283630861073",
+        "secret": "db87bdc28da5cf294f06e6f961296703"
+      }
+    }
+  }
+}
