@@ -1,11 +1,8 @@
 {
-  "public": {},
-  "private": {
-    "oAuth": {
-      "facebook": {
-        "appId": "859283630861073",
-        "secret": "db87bdc28da5cf294f06e6f961296703"
-      }
+  "galaxy.meteor.com": {
+    "env": {
+      "ROOT_URL": "http://www.joywatch.live",
+      "MONGO_URL": "mongodb://joy:goingtoaustin@ds011261.mlab.com:11261/joywatch"
     }
   }
 }
